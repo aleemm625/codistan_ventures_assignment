@@ -1,0 +1,23 @@
+{
+ "customerDetails": {
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "phoneNo": "1234567890",
+    "address": {
+      "addressLine1": "123 Main St",
+      "addressLine2": "Apt 4B",
+      "city": "New York",
+      "country": "USA",
+      "zipCode": "10001"
+    }
+ },
+ "roomDetails": {
+    "roomType": "single",
+    "roomNo": "110"
+ },
+ "checkInDate": "2023-04-01T00:00:00.000Z",
+ "checkOutDate": "2023-04-05T00:00:00.000Z",
+ "price": 200,
+ "status": "confirmed",
+ "paymentStatus": "paid"
+}
