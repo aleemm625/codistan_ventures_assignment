@@ -3,7 +3,7 @@ const express = require('express');
 const app = express();
 
 const allRoutes = require('./src/routes');
-const connectDB = require('./config/db');
+const connectDB = require('./src/config/db');
 
 // json/body parser
 app.use(express.json());
