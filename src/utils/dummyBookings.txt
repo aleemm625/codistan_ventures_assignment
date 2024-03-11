@@ -1,3 +1,5 @@
+for creating new booking
+
 {
  "customerDetails": {
     "name": "John Doe",
@@ -21,3 +23,24 @@
  "status": "confirmed",
  "paymentStatus": "paid"
 }
+
+==================================================================
+
+for updating one
+
+{price: 300}
+
+==================================================================
+
+for updating multiple
+
+[
+    {id: '123123123123', data: {price: 400}},
+    {id: '123123123123', data: {price: 500}}
+]
+
+==================================================================
+
+for removing multiple
+
+['123123123123123', '123123123123312']
